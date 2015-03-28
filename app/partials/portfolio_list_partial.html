@@ -3,7 +3,7 @@
 		<div class="panel panel-primary" ng-repeat="portfolio in portfolios  | filter: { title: searchFor } ">
 			
 			<div class="panel-heading">
-				<a href="index.html#/portfolios/{{ portfolio.name }}">
+				<a href="#/portfolio/{{ portfolio.name }}">
 					{{ portfolio.title }} 
 				</a>
 				<div class="date">{{ portfolio.date }}</div>
